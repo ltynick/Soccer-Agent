@@ -1,0 +1,32 @@
+# ============================================
+# Soccer AI Agent - 依赖清单
+# ============================================
+# pip install -r requirements.txt
+
+# LLM & Agent
+langchain>=1.0.0
+langchain-openai>=1.0.0
+langchain-ollama>=1.0.0
+langchain-huggingface>=1.0.0
+langchain-community>=0.3.0
+langgraph>=1.0.0
+lightrag-hku>=1.5.0
+
+# Web 服务
+fastapi>=0.115.0
+uvicorn>=0.30.0
+
+# 数据源
+google-search-results>=2.4.0
+
+# 本地嵌入
+sentence-transformers>=3.0.0
+
+# 语音合成 (可选)
+edge-tts>=6.1.0
+
+# 数据处理
+pandas>=2.0.0
+numpy>=2.0.0
+httpx>=0.28.0
+requests>=2.32.0

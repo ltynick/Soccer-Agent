@@ -1,0 +1,31 @@
+# 敏感配置
+.env
+qq_env.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 本地数据
+match_knowledge/
+chroma_db/
+local_qdrant/
+voice/
+
+# 模型文件
+bge-small-zh-v1.5/
+
+# 外部依赖
+botpy-master/
+
+# IDE
+.vscode/
+.idea/
+
+# 日志
+*.log
+
+# 临时文件
+*.tmp
+test_*.py
